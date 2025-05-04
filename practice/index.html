@@ -1,0 +1,48 @@
+<script>
+// 1. Number (integer or floating-point)
+let age = 25; // Integer
+let price = 19.99; // Floating-point
+
+// 2. String (text)
+const name = "spider";
+let greeting = 'Hello, Spider!';
+
+// 3. Boolean (true/false)
+let isActive = true;
+let hasPermission = false;
+
+// 4. Array (ordered list)
+let numbers = [1, 2, 3, 4, 5];
+let fruits = ["apple", "banana", "orange"];
+
+// 5. Object (key-value pairs)
+const person = {
+  firstName: "Spider",
+  lastName: "Man",
+  age: 20
+};
+
+// 6. Undefined (variable declared but not assigned)
+let x;
+console.log(x); // undefined
+
+// 7. Null (explicitly no value)
+let emptyValue = null;
+
+// 8. Symbol (unique and immutable value)
+const sym = Symbol("unique");
+
+let symbo=1;
+symbo=2; //mmutable value you can change the value of symbo
+
+
+// Checking data types using typeof
+console.log(typeof age); // "number"
+console.log(typeof name); // "string"
+console.log(typeof isActive); // "boolean"
+console.log(typeof numbers); // "object" (arrays are a type of object)
+console.log(typeof person); // "object"
+console.log(typeof x); // "undefined"
+console.log(typeof emptyValue); // "object" (historical quirk in JS)
+console.log(typeof sym); // "symbol"
+</script>
